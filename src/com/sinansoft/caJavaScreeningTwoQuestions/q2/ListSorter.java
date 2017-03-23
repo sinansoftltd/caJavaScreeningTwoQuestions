@@ -23,7 +23,6 @@ import java.util.*;
  * @author Pezhman Jahanmard
  */
 public class ListSorter {
-	//We've changed the code to accept duplicates, otherwise we can use SortedSet (TreeSet) to avoid duplicates.
 	private ArrayList<String> wordList = new ArrayList<>();
 	private ArrayList<Integer> integerList = new ArrayList<>();
 	private ArrayList<InputType> inputStream = new ArrayList<>();

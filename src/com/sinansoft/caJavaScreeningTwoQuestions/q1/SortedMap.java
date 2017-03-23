@@ -75,14 +75,4 @@ public class SortedMap<K, V> implements Iterable<K> {
 	private List keysAsList() {
 		return Arrays.asList(keys.toArray());
 	}
-
-	/*@Override
-	public void forEach(Consumer<? super K> action) {
-		//TODO
-	}
-
-	@Override
-	public Spliterator<K> spliterator() {
-		return null;
-	}*/
 }
